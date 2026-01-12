@@ -1,0 +1,15 @@
+.footer {
+  border-top: 1px solid #1f293a;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  color: #94a3b8;
+}

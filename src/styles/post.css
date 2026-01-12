@@ -1,0 +1,30 @@
+.post {
+  background: #161e2d;
+  border: 1px solid #1f293a;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.post h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.post p {
+  color: #aeb6c5;
+  margin-bottom: 15px;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #9aa3b2;
+  cursor: pointer;
+}
+
+.actions span:hover {
+  color: white;
+}

@@ -1,0 +1,48 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: #101622;
+  border-bottom: 1px solid #1f293a;
+  padding: 12px 20px;
+}
+
+.header-inner {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.search {
+  flex: 1;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #161e2d;
+  border: 1px solid #1f293a;
+  color: white;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login {
+  background: transparent;
+  color: #cbd5e1;
+  border: none;
+}
+
+.register {
+  background: #0d40a5;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 999px;
+  border: none;
+}

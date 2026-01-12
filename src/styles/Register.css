@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  background: #f6f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-bar {
+  position: absolute;
+  top: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo svg {
+  width: 32px;
+  color: #0d40a5;
+}
+
+.card {
+  background: white;
+  width: 420px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card h1 {
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #616f89;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+input, select {
+  height: 45px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid #dbdfe6;
+  font-size: 14px;
+}
+
+.submit {
+  background: #0d40a5;
+  color: white;
+  border: none;
+  height: 45px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: #0b3590;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #0d40a5;
+  font-weight: bold;
+}

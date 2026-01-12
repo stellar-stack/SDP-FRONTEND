@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.logo svg {
+  width: 32px;
+  height: 32px;
+}
+
+.login-page {
+  min-height: 100vh;
+  background: #f6f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 90%;
+  max-width: 1100px;
+  background: white;
+  display: flex;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* LEFT */
+.left-section {
+  width: 50%;
+  background: #0d40a5;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brand {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #dbe7ff;
+}
+
+/* RIGHT */
+.right-section {
+  width: 50%;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-box h2 {
+  margin-bottom: 5px;
+}
+
+.login-box p {
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-form label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-form input {
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+}
+
+.password-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-row a {
+  font-size: 13px;
+  color: #0d40a5;
+  text-decoration: none;
+}
+
+.login-btn {
+  margin-top: 10px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  background: #0d40a5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #0b3590;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #9ca3af;
+}
+
+.social-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.social-buttons button {
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.signup-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #0d40a5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    display: none;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+}

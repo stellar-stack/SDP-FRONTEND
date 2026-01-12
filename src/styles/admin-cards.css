@@ -1,0 +1,41 @@
+/* admin-cards.css */
+.stat-card {
+  background: #161e2d;
+  padding: 20px;
+  border-radius: 14px;
+}
+.stat-card h3 {
+  font-size: 26px;
+}
+.stat-card.danger {
+  border: 1px solid #ff4d4d;
+}
+
+/* admin-table.css */
+.table-box {
+  background: #161e2d;
+  padding: 20px;
+  border-radius: 14px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td, th {
+  padding: 10px;
+  border-bottom: 1px solid #2a2e38;
+}
+
+/* admin-reports.css */
+.reports-box {
+  background: #161e2d;
+  padding: 20px;
+  border-radius: 14px;
+}
+.report-card {
+  background: #1f293a;
+  padding: 15px;
+  border-radius: 10px;
+}
+.approve { color: #22c55e; }
+.reject { color: #ef4444; }

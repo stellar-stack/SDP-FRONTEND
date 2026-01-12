@@ -1,0 +1,18 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 240px 1fr 260px;
+  gap: 20px;
+  padding: 20px;
+  background: #101622;
+  min-height: calc(100vh - 70px);
+}
+
+.feed {
+  background: transparent;
+}
+
+.feed h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
